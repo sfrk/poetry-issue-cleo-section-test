@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "cleo-test"
+version = "0.1.0"
+description = ""
+authors = ["Sebastian Frelle Koch <sfrk@kamstrup.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+cleo = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
